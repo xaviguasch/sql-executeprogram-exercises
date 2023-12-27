@@ -35,8 +35,6 @@ exec(`
     ON users.id = comments.user_id
 
   // problem ends
-
-
   `)
 
 // GOAL: [{name: 'Amir', comment_text: 'Ms. Fluff needs a bath!'}, {name: 'Amir', comment_text: 'Ms. Fluff strongly dislikes water.'}, {name: 'Betty', comment_text: null}]
